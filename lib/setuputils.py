@@ -170,9 +170,9 @@ def search(incs, libs, tag='pyCGNS',
                 import qtpy.QtWidgets
 
                 C.HAS_QTPY = True
-                print(pfx + 'using qtpy v%s (Qt v%s)' % (qtpy.__version__, qtpy.QtCore.__version__))
+                print(pfx + 'using qtpy v%s (Qt v%s)' % (qtpy.__version__, qtpy.QtCore.qVersion()))
                 C.PYQT_VERSION = str(qtpy.__version__)
-                C.QT_VERSION = str(qtpy.QtCore.__version__)
+                C.QT_VERSION = str(qtpy.QtCore.qVersion())
             except:
                 C.HAS_QTPY = False
                 print(pfx + '***** SKIP NAV: qtpy not found')
