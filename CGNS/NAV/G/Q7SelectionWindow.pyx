@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'CGNS/NAV/T/Q7SelectionWindow.ui'
 #
-# Created by: PyQt5 UI code generator 5.9.2
+# Created by: PyQt5 UI code generator 5.10.1
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -197,4 +197,4 @@ class Ui_Q7SelectionWindow(object):
         self.cShowPath.setText(_translate("Q7SelectionWindow", "Path"))
         self.cApplyToAll.setText(_translate("Q7SelectionWindow", "Apply to All Selected"))
 
-import Res_rc
+import CGNS.NAV.Res_rc

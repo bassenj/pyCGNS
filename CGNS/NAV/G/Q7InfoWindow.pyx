@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'CGNS/NAV/T/Q7InfoWindow.ui'
 #
-# Created by: PyQt5 UI code generator 5.9.2
+# Created by: PyQt5 UI code generator 5.10.1
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -288,4 +288,4 @@ class Ui_Q7InfoWindow(object):
         self.label.setText(_translate("Q7InfoWindow", "File: "))
         self.label_13.setText(_translate("Q7InfoWindow", "TMP:"))
 
-import Res_rc
+import CGNS.NAV.Res_rc

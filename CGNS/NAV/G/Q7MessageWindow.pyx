@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'CGNS/NAV/T/Q7MessageWindow.ui'
 #
-# Created by: PyQt5 UI code generator 5.9.2
+# Created by: PyQt5 UI code generator 5.10.1
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -75,4 +75,4 @@ class Ui_Q7MessageWindow(object):
         self.bCANCEL.setText(_translate("Q7MessageWindow", "Cancel"))
         self.bOK.setText(_translate("Q7MessageWindow", "OK"))
 
-import Res_rc
+import CGNS.NAV.Res_rc

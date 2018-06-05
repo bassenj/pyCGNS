@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'CGNS/NAV/T/Q7FileWindow.ui'
 #
-# Created by: PyQt5 UI code generator 5.9.2
+# Created by: PyQt5 UI code generator 5.10.1
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -501,4 +501,4 @@ class Ui_Q7FileWindow(object):
         self.rClearAllDirs.setText(_translate("Q7FileWindow", "All director&y and file entries"))
         self.tabs.setTabText(self.tabs.indexOf(self.tab_2), _translate("Q7FileWindow", "History/Filter"))
 
-import Res_rc
+import CGNS.NAV.Res_rc

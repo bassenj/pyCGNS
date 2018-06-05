@@ -97,7 +97,7 @@ def runQuery(tree, links, paths, query, args, selected=[], mode=True):
     except:
         pass
     _args = v
-    if (type(query) in [str, unicode]): query = eval(query)
+    if (type(query) in [str]): query = eval(query)
     result = parseAndSelect(tree, tree, [None, None, [], None], links, paths, '',
                             query, _args, selected, mode)
     return result

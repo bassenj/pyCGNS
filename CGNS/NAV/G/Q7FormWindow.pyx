@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'CGNS/NAV/T/Q7FormWindow.ui'
 #
-# Created by: PyQt5 UI code generator 5.9.2
+# Created by: PyQt5 UI code generator 5.10.1
 #
 # WARNING! All changes made in this file will be lost!
 
@@ -447,4 +447,4 @@ class Ui_Q7FormWindow(object):
 
 from CGNS.NAV.mtable import Q7TableView
 from CGNS.NAV.weditors import Q7PythonEditor
-import Res_rc
+import CGNS.NAV.Res_rc
