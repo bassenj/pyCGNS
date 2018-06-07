@@ -94,7 +94,7 @@ def asHDFname(FA, C):
 
 
 def convertInPlace(FA, FH, C):
-    if (not os.path.exists(FA)):
+    if (not os.path.isfile(FA)):
         if (C.verbose):
             print('   ' * C.depth + " Error: Unreachable file: %s" % FA)
         return False

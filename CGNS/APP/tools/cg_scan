@@ -62,7 +62,7 @@ class Query(object):
 
 
 def checkRawFile(filename):
-    if (not os.path.exists(filename)):
+    if (not os.path.isfile(filename)):
         print('File not found')
         sys.exit(0)
     if (not CGM.probe(filename)):

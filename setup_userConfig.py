@@ -26,8 +26,8 @@ if False:
 #
 if True:
     HDF5_VERSION = ''
-    HDF5_PATH_INCLUDES = ['/usr/include/hdf5/serial/',]
-    HDF5_PATH_LIBRARIES = ['/usr/lib/x86_64-linux-gnu/hdf5/serial/',]
+    HDF5_PATH_INCLUDES = ['/opt/HDF_Group/HDF5/1.10.2/include/',]
+    HDF5_PATH_LIBRARIES = ['/opt/HDF_Group/HDF5/1.10.2/lib/',]
     HDF5_LINK_LIBRARIES = ['hdf5']
     HDF5_EXTRA_ARGS = ['-Wno-return-type']
 
