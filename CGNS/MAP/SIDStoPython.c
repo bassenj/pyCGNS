@@ -2606,6 +2606,7 @@ PyObject* s2p_saveAsHDF(char     *dirname,
         }
         if (ascii_tdat != NULL) Py_DECREF(ascii_tdat);
       }
+      L3_nodeFree(&node); /* free releases hid_t, before actual close */
       s2p_closeallHDF(context);
       s2p_freelinktable(context);
       s2p_freenodetable(context);
